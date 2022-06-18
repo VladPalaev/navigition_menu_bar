@@ -12,20 +12,20 @@
 .wrapper {
 	display: flex;
 	flex-direction: column;
-	height: 100vh;
+	height: 4500px;
 	background-color: var(--clr);
+}
 
-}
-.main {
-	flex: 1;
-}
 .footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
 	background: #fff;
 	border: 5px solid var(--clr);
 	border-bottom: none;
 	border-top-left-radius: 350px;
 	border-top-right-radius: 350px;
-
 }
 
 .navigation {
